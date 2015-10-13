@@ -26,8 +26,42 @@ header a {
 }
 
 #mainpic {
+    width: 1000px;
+    padding: 200px;
     background-color: indianred;
     float: left;
     text-align: center;
     color: yellow;
+}
+
+#bluepic {
+    margin: 50px;
+    padding: 100px;
+    float: left;
+    background-color: aqua;
+}
+
+.About {
+    width: 400px;
+    margin: 50px;
+    float: left;
+    background-color: blueviolet;
+}
+
+.pickone {
+    width: 5000px;
+    float: left;
+}
+
+#seclection h3 {
+    float: left;
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-weight: 900;
+}
+
+#seclection p {
+    float: left;
+    padding: 10px;
+    font-size: 12px;
 }
