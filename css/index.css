@@ -2,15 +2,6 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     background-color: plum;
-    background-image: url(http://s3.amazonaws.com/kidzworld_photo/images/201591/ad0fbb46-8468-4061-b1ab-7ec3a13c63e8/american-suicide-foundation.jpg);
-    background-repeat: no-repeat;
-    background-position: top center left;
-}
-
-.clearfix: after {
-    content:'';
-    display:block;
-    clear:both;
 }
 
 header h1 {
@@ -32,32 +23,26 @@ header a {
 }
 
 #mainpic {
-    width: 900px;
-    padding: 130px;
+    width: 100%;
     background-color: indianred;
-    float: left;
+ 
     text-align: center;
     color: yellow;
 }
 
 #bluepic {
-    width: 300px;
-    margin: 50px;
-    padding: 10px;
-    float: left;
+    
     background-color: aqua;
 }
 
 #middle {
-    float: left;
-    margin-left: 250px;
+    
+    
 }
 
 .about {
-    width: 600px;
-    margin: 50px;
-    padding: 10px;
-    float: left;
+   
+   
     background-color: blueviolet;
 }
 
@@ -70,11 +55,13 @@ header a {
 }
 
 .pickone {
-    float: left;
+    
+    
 }
 
-.pickone img.resize{
-    width:540px; /* you can use % */
+.pickone img.resize {
+    background-color: crimson;
+    width: auto; 
     height: auto;
 }
 
@@ -88,8 +75,6 @@ header a {
 
 #seclection p {
     background-color: darkgoldenrod;
-    margin: 200px;
     float: left;
-    padding: 10px;
     font-size: 12px;
 }
