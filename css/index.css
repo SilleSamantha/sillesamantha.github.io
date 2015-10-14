@@ -1,6 +1,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
+    background-color: plum;
 }
 
 .clearfix: after {
@@ -66,7 +67,6 @@ header a {
 }
 
 .pickone {
-    margin: 200px;
     float: left;
 }
 
