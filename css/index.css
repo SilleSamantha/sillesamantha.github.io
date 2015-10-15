@@ -35,7 +35,8 @@ header a {
 }
 
 #mainpic {
-    font-family: cursive;
+    font-family: 'Bree Serif', serif;
+    font-size: 30px;
     width: 100%;
     padding: 250px 0px;
     height: 155px;
@@ -63,9 +64,9 @@ header a {
 }
 
 .about {
-    font-family: fantasy;
+    font-family: 'Bree Serif', serif;
     float: left;
-    width: 25%;
+    width: 45%;
     background-color: blueviolet;
 }
 
