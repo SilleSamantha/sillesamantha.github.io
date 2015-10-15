@@ -4,7 +4,18 @@ body {
     background-color: plum;
 }
 
+.clearfix:after {
+    content:'';
+    display:block;
+    clear:both;
+}
+
+header {
+    background-color: chartreuse;
+}
+
 header h1 {
+    font-family: fantasy;
     margin: 0px;
     font-size: 2em;
     float: left;
@@ -16,33 +27,34 @@ header nav {
 }
 
 header a {
+    font-family: fantasy;
     margin: 10px;
-    color:black;
+    color: black;
     text-decoration: none;
     margin-left: 10px;
 }
 
 #mainpic {
+    font-family: cursive;
     width: 100%;
+    padding: 250px;
+    height: 500px;
     background-color: indianred;
- 
     text-align: center;
     color: yellow;
 }
 
+#mainpic a {
+    text-decoration: underline;
+    font-family: fantasy;
+    color: black;
+}
+
 #bluepic {
-    
     background-color: aqua;
 }
 
-#middle {
-    
-    
-}
-
 .about {
-   
-   
     background-color: blueviolet;
 }
 
@@ -54,14 +66,11 @@ header a {
     text-align: center;
 }
 
-.pickone {
-    
-    
-}
+.pickone {}
 
 .pickone img.resize {
     background-color: crimson;
-    width: auto; 
+    width: auto;
     height: auto;
 }
 
