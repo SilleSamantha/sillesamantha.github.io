@@ -52,12 +52,12 @@ header a {
 }
 
 #middlepic {
-    width: 200%;
     padding: 25px;
 }
 
 
 #bluepic {
+    margin-right: 20px;
     float: left;
     padding-left: 250px;
     background-color: aqua;
@@ -65,12 +65,16 @@ header a {
 
 .about {
     font-family: 'Bree Serif', serif;
+    font-size: 20px;
     float: left;
-    width: 45%;
+    width: 55%;
     background-color: blueviolet;
 }
 
 .about h2 {
+    padding-bottom: 20px;
+    font-size: 45px;
+    text-decoration: underline;
     text-align: center;
 }
 
