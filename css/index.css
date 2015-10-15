@@ -1,13 +1,13 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    background-color: plum;
+    background-color: indianred;
 }
 
 .clearfix:after {
-    content:'';
-    display:block;
-    clear:both;
+    content: '';
+    display: block;
+    clear: both;
 }
 
 header {
@@ -40,7 +40,7 @@ header a {
     width: 100%;
     padding: 250px 0px;
     height: 155px;
-    background-color: indianred;
+    background-color: darkgoldenrod;
     text-align: center;
     color: yellow;
 }
@@ -55,7 +55,6 @@ header a {
     padding: 25px;
 }
 
-
 #bluepic {
     margin-right: 20px;
     float: left;
@@ -64,7 +63,6 @@ header a {
 }
 
 .about {
-    font-family: 'Bree Serif', serif;
     font-size: 20px;
     float: left;
     width: 55%;
@@ -72,6 +70,7 @@ header a {
 }
 
 .about h2 {
+    font-family: 'Bree Serif', serif;
     padding-bottom: 20px;
     font-size: 45px;
     text-decoration: underline;
@@ -80,9 +79,13 @@ header a {
 
 .about p {
     text-align: center;
+    font-family: font-family: 'Poiret One', cursive;
 }
 
-.pickone {}
+.pickone {
+    background-color: aqua;
+    text-align: center;
+}
 
 .pickone img.resize {
     background-color: crimson;
