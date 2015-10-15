@@ -83,14 +83,16 @@ header a {
 }
 
 .pickone {
+    margin-top: 90px;
+    width: 20%;
     background-color: aqua;
     text-align: center;
 }
 
-.pickone img.resize {
+.pickone img {
     background-color: crimson;
-    width: auto;
-    height: auto;
+    width: 25%;
+    height: 0%;
 }
 
 #seclection h3 {
