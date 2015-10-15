@@ -37,8 +37,8 @@ header a {
 #mainpic {
     font-family: cursive;
     width: 100%;
-    padding: 250px;
-    height: 500px;
+    padding: 250px 0px;
+    height: 155px;
     background-color: indianred;
     text-align: center;
     color: yellow;
@@ -50,11 +50,22 @@ header a {
     color: black;
 }
 
+#middlepic {
+    width: 200%;
+    padding: 25px;
+}
+
+
 #bluepic {
+    float: left;
+    padding-left: 250px;
     background-color: aqua;
 }
 
 .about {
+    font-family: fantasy;
+    float: left;
+    width: 25%;
     background-color: blueviolet;
 }
 
