@@ -85,13 +85,18 @@ header a {
 .pickone {
     margin-top: 100px;
     width: 20%;
-    background-color: aqua;
+    background-color: darkred;
     text-align: center;
 }
 
+.pickone{
+    float: left;
+}
+
+
 .pickone img {
     background-color: crimson;
-    width: 25%;
+    width: 65%;
     height: 0%;
 }
 
