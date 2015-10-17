@@ -66,25 +66,29 @@ header a {
     font-size: 20px;
     float: left;
     width: 55%;
-    background-color: blueviolet;
+    background-color: darkblue;
 }
 
 .about h2 {
     font-family: 'Bree Serif', serif;
+    font-style: italic;
+    font-weight: 800;
     padding-bottom: 20px;
     font-size: 45px;
-    text-decoration: underline;
     text-align: center;
 }
 
 .about p {
     text-align: center;
-    font-family: font-family: 'Poiret One', cursive;
+    font-weight: 700;
+    color: white;
+    font-family: 'Poiret One', cursive;
 }
 
 .pickone {
     float: left;
     padding-left: 70px;
+    padding-bottom: 20px;
     margin-top: 100px;
     width: 20%;
     background-color: darkred;
@@ -106,8 +110,8 @@ header a {
     font-weight: 900;
 }
 
-#seclection p {
+#minipics p {
+    padding: 20px;
     background-color: darkgoldenrod;
-    float: left;
     font-size: 12px;
 }
