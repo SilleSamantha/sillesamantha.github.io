@@ -11,12 +11,13 @@ body {
 }
 
 header {
-    background-color: chartreuse;
 }
 
 header h1 {
-    font-family: fantasy;
+    font-family: 'Poiret One', cursive;
     margin: 0px;
+    font-weight: 700;
+    color: white;
     font-size: 2em;
     float: left;
 }
@@ -27,9 +28,10 @@ header nav {
 }
 
 header a {
-    font-family: fantasy;
+    font-family: 'Poiret One', cursive;
     margin: 10px;
-    color: black;
+    color: white;
+    font-weight: 700;
     text-decoration: none;
     margin-left: 10px;
 }
@@ -40,15 +42,16 @@ header a {
     width: 100%;
     padding: 250px 0px;
     height: 155px;
-    background-color: darkgoldenrod;
     text-align: center;
     color: yellow;
 }
 
 #mainpic a {
     text-decoration: underline;
-    font-family: fantasy;
-    color: black;
+    font-family: 'Poiret One', cursive;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
 }
 
 #middlepic {
@@ -59,14 +62,12 @@ header a {
     margin-right: 20px;
     float: left;
     padding-left: 250px;
-    background-color: aqua;
 }
 
 .about {
     font-size: 20px;
     float: left;
     width: 55%;
-    background-color: darkblue;
 }
 
 .about h2 {
@@ -91,13 +92,11 @@ header a {
     padding-bottom: 20px;
     margin-top: 100px;
     width: 20%;
-    background-color: darkred;
     text-align: center;
 }
 
 
 .pickone img {
-    background-color: crimson;
     width: 45%;
     height: 0%;
 }
@@ -111,7 +110,7 @@ header a {
 }
 
 #minipics p {
+    color: white;
     padding: 20px;
-    background-color: darkgoldenrod;
     font-size: 12px;
 }
