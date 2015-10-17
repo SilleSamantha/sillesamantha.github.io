@@ -98,10 +98,10 @@ header a {
     height: 0%;
 }
 
-#seclection h3 {
+#minipics h3 {
+    color: white;
     text-align: center;
-    float: left;
-    font-family: Georgia, serif;
+    font-family: 'Bree Serif', serif;
     font-style: italic;
     font-weight: 900;
 }
