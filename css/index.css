@@ -122,3 +122,27 @@ header a {
     background-color: brown;
     float: left;
 }
+
+#end {
+    float: left;
+    font-family: 'Bree Serif', serif;
+    font-size: 20px;
+    width: 100%;
+    padding: 250px 0px;
+    height: 155px;
+    text-align: center;
+    color: yellow;
+}
+
+#end a {
+    text-decoration: underline;
+    font-family: 'Poiret One', cursive;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#end img {
+    width: 45%;
+    height: 0%;
+}
