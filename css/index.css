@@ -10,8 +10,7 @@ body {
     clear: both;
 }
 
-header {
-}
+header {}
 
 header h1 {
     font-family: 'Poiret One', cursive;
@@ -94,7 +93,6 @@ header a {
     width: 20%;
     text-align: center;
 }
-
 
 .pickone img {
     width: 45%;
