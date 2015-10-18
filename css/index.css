@@ -11,8 +11,6 @@ body {
     clear: both;
 }
 
-header {}
-
 header h1 {
     font-family: 'Poiret One', cursive;
     margin: 0px;
@@ -47,11 +45,14 @@ header a {
 }
 
 #mainpic a {
-    text-decoration: underline;
+    text-decoration: none;
     font-family: 'Poiret One', cursive;
     color: white;
     font-weight: 700;
     font-size: 18px;
+    border: 2px solid white;
+    padding: 10px;
+    
 }
 
 #middlepic {
@@ -82,7 +83,7 @@ header a {
 .about p {
     text-align: center;
     font-weight: 700;
-    color: white;
+    color: yellow;
     font-family: 'Poiret One', cursive;
 }
 
@@ -101,7 +102,7 @@ header a {
 }
 
 #minipics h3 {
-    color: white;
+    color: yellow;
     text-align: center;
     font-family: 'Bree Serif', serif;
     font-style: italic;
@@ -109,9 +110,10 @@ header a {
 }
 
 #minipics p {
-    color: white;
+    color: yellow;
     padding: 20px;
-    font-size: 12px;
+    font-size: 18px;
+    font-family: 'Poiret One', cursive;
 }
 
 .twoevents img {
@@ -130,11 +132,18 @@ header a {
 }
 
 .twoevents h3 {
-    color: white;
+    color: yellow;
     text-align: center;
     font-family: 'Bree Serif', serif;
     font-style: italic;
     font-weight: 900;
+}
+
+.twoevents p {
+    color: yellow;
+    padding: 20px;
+    font-size: 18px;
+    font-family: 'Poiret One', cursive;
 }
 
 
