@@ -122,18 +122,17 @@ header a {
 }
 
 .twoevents img {
-    margin: 20px;
+    margin: 40px;
     padding: 0;
 }
 
 .twoevents {
-    padding: 20px;
+    padding: 200px;
     margin: 0 auto;
     width: 50%;
 }
 
 .twoevents h3 {
-    background-color: yellow;
     color: white;
     text-align: center;
     font-family: 'Bree Serif', serif;
@@ -146,6 +145,15 @@ header a {
     color: white;
     font-size: 18px;
     font-family: 'Poiret One', cursive;
+}
+
+.cal h3 {
+    margin-right: 40px;
+}
+
+.cal p {
+    margin-right: 20px;
+    
 }
 
 .walk {
