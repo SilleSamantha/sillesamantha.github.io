@@ -126,8 +126,17 @@ header a {
 .twoevents {
     margin: 0 auto;
     width: 50%;
-    background-color: yellow;
+/*    background-color: yellow;*/
 }
+
+.twoevents h3 {
+    color: white;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-style: italic;
+    font-weight: 900;
+}
+
 
 #end {
     background-image: linear-gradient( rgba(20, 20, 20, 0.9) 0%, rgba(0, 0, 0, 0.8) 100%), url(../img/notalone.jpg);
