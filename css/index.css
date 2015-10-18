@@ -52,7 +52,6 @@ header a {
     font-size: 18px;
     border: 2px solid white;
     padding: 10px;
-    
 }
 
 #middlepic {
@@ -134,6 +133,7 @@ header a {
 }
 
 .twoevents h3 {
+    background-color: yellow;
     color: white;
     text-align: center;
     font-family: 'Bree Serif', serif;
