@@ -38,7 +38,7 @@ header a {
     font-family: 'Bree Serif', serif;
     font-size: 30px;
     width: 100%;
-    padding: 250px 0px;
+    padding: 250px 20px;
     height: 155px;
     text-align: center;
     color: yellow;
@@ -176,7 +176,9 @@ header a {
 }
 
 #end a {
-    text-decoration: underline;
+    text-align: center;
+    border: 3px solid white;
+    text-decoration: none;
     font-family: 'Poiret One', cursive;
     color: white;
     font-weight: 700;
