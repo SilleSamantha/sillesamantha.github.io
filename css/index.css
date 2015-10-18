@@ -124,8 +124,7 @@ header a {
 }
 
 #end {
-    background-image: linear-gradient( rgba(20, 20, 20, 0.9) 0%, rgba(0, 0, 0, 0.8) 100% ),
-    url(../img/notalone.jpg);
+    background-image: linear-gradient( rgba(20, 20, 20, 0.9) 0%, rgba(0, 0, 0, 0.8) 100%), url(../img/notalone.jpg);
     width: 1000px;
     padding: 250px 500px;
     background-position: center;
