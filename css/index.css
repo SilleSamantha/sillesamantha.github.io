@@ -72,6 +72,7 @@ header a {
 }
 
 .about h2 {
+    color: white;
     font-family: 'Bree Serif', serif;
     font-style: italic;
     font-weight: 800;
@@ -83,7 +84,7 @@ header a {
 .about p {
     text-align: center;
     font-weight: 700;
-    color: yellow;
+    color: white;
     font-family: 'Poiret One', cursive;
 }
 
@@ -102,7 +103,7 @@ header a {
 }
 
 #minipics h3 {
-    color: yellow;
+    color: white;
     text-align: center;
     font-family: 'Bree Serif', serif;
     font-style: italic;
@@ -110,9 +111,10 @@ header a {
 }
 
 #minipics p {
-    color: yellow;
+    color: white;
     padding: 20px;
     font-size: 18px;
+    font-weight: 700;
     font-family: 'Poiret One', cursive;
 }
 
@@ -128,11 +130,10 @@ header a {
 .twoevents {
     margin: 0 auto;
     width: 50%;
-/*    background-color: yellow;*/
 }
 
 .twoevents h3 {
-    color: yellow;
+    color: white;
     text-align: center;
     font-family: 'Bree Serif', serif;
     font-style: italic;
@@ -140,12 +141,16 @@ header a {
 }
 
 .twoevents p {
-    color: yellow;
+    color: white;
     padding: 20px;
     font-size: 18px;
     font-family: 'Poiret One', cursive;
 }
 
+.walk {
+    margin-top: 50px;
+    padding-bottom: 0;
+}
 
 #end {
     background-image: linear-gradient( rgba(20, 20, 20, 0.9) 0%, rgba(0, 0, 0, 0.8) 100%), url(../img/notalone.jpg);
