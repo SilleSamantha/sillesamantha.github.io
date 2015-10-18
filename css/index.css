@@ -118,16 +118,17 @@ header a {
     font-family: 'Poiret One', cursive;
 }
 
-.twoevents img {
-    padding: 40px;
-    margin: 10px;
-}
-
 .events {
     float: left;
 }
 
+.twoevents img {
+    margin: 20px;
+    padding: 0;
+}
+
 .twoevents {
+    padding: 20px;
     margin: 0 auto;
     width: 50%;
 }
@@ -141,14 +142,14 @@ header a {
 }
 
 .twoevents p {
+    text-align: center;
     color: white;
-    padding: 20px;
     font-size: 18px;
     font-family: 'Poiret One', cursive;
 }
 
 .walk {
-    margin-top: 50px;
+    margin-top: 70px;
     padding-bottom: 0;
 }
 
