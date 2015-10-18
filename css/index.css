@@ -2,6 +2,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     background-color: indianred;
+    width: 100%;
 }
 
 .clearfix:after {
@@ -113,34 +114,31 @@ header a {
     font-size: 12px;
 }
 
-#twoevents img {
+.twoevents img {
+    padding: 40px;
+    margin: 10px;
+}
+
+.events {
     float: left;
-    width: 100%;
-    height: 0%;
-    padding: 80px;
-    margin: 20px;
 }
 
-.events h3 {
-    color: white;
-    text-align: center;
-    font-family: 'Bree Serif', serif;
-    font-style: italic;
-    font-weight: 900;
+.twoevents {
+    margin: 0 auto;
+    width: 50%;
+    background-color: yellow;
 }
-
 
 #end {
     background-image: linear-gradient( rgba(20, 20, 20, 0.9) 0%, rgba(0, 0, 0, 0.8) 100%), url(../img/notalone.jpg);
-    width: 1000px;
     padding: 250px 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 10px;
     float: left;
     font-family: 'Bree Serif', serif;
     font-size: 20px;
-    width: 75%;
     height: 155px;
     text-align: center;
     color: yellow;
