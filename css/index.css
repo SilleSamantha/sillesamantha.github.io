@@ -102,6 +102,7 @@ header a {
 }
 
 #minipics {
+    width: 95%;
     text-align: center;
 }
 
@@ -123,6 +124,7 @@ header a {
 
 .events {
     float: left;
+    width: 45%;
 }
 
 .twoevents img {
@@ -131,7 +133,6 @@ header a {
 }
 
 .twoevents {
-    padding: 200px;
     margin: 0 auto;
     width: 50%;
 }
