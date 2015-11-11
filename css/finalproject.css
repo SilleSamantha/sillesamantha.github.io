@@ -3,13 +3,13 @@ html, body {
 }
 
 .hero{
-    background-color: blue;
     margin-top: 50px;
     background: url('../img/cover.JPG');
     background-position:center;
     background-repeat: no-repeat;
     text-align: center;
     background-size:contain;
+    background-color: #D4B49B;
     height: 100%;
     display: table;
     width: 100%;
@@ -20,7 +20,6 @@ html, body {
     display: table-cell;
     vertical-align:bottom;
     padding-bottom: 100px;
-/*    background-color: #D4B49B;*/
 }
 
 .box {
