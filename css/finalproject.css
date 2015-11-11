@@ -1,0 +1,23 @@
+html, body {
+    height: 100%;
+}
+
+.hero{
+    background-color: blue;
+    margin-top: 50px;
+    background: url('../img/cover.JPG');
+    background-position:center;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size:contain;
+    height: 100%;
+    display: table;
+    width: 100%;
+}
+
+.hero > div {
+    font-family: 'Shadows Into Light', cursive;
+    display: table-cell;
+    vertical-align:bottom;
+/*    background-color: #D4B49B;*/
+}
