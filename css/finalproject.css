@@ -16,8 +16,28 @@ html, body {
 }
 
 .hero > div {
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Sigmar One', cursive;
     display: table-cell;
     vertical-align:bottom;
+    padding-bottom: 100px;
 /*    background-color: #D4B49B;*/
+}
+
+.box {
+    border: 2px solid black;
+}
+
+.part2 {
+    background-color: lightgreen;
+    color: dimgrey;
+    text-align: center;
+}
+
+.part2 h2 {
+    font-family: 'Sigmar One', cursive;
+}
+
+p {
+  font-family: 'Shadows Into Light', cursive;
+    font-size: 18px;
 }
