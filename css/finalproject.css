@@ -41,9 +41,9 @@ body {
 }
 
 .two {
-    padding: 100px;
-    background-color: #A9CDDA;
-    color: white;
+    padding: 100px 0;
+    background-color: #D194B7;
+    color: #AD1D3B;
     text-align: center;
 }
 
@@ -57,13 +57,19 @@ p {
 }
 
 .three {
-    background-color: #D194B7;
+    background-color: #D18A25;
     text-align: center;
 }
 
 .three h1 {
+    color: white;
     font-size: 2em;
     font-family: 'Sigmar One', cursive;
+}
+
+.three a {
+    color:cornflowerblue;
+    text-decoration: none;
 }
 
 @media (max-width: 768px){
@@ -72,5 +78,15 @@ p {
     }
   #hero  p {
         font-size: 2em;
+    }
+    
+    #hero h1 {
+        font-family: 'Sigmar One', cursive;
+        font-size: 3em;
+    }
+    
+    .two{
+     text-align: center;
+        color: purple;
     }
 }
