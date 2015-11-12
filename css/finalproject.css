@@ -17,6 +17,11 @@ body {
     width: 100%;
 }
 
+#hero h1 {
+    font-size: 3em;
+    color: white;
+}
+
 #hero > div {
     font-family: 'Sigmar One', cursive;
     display: table-cell;
@@ -25,17 +30,20 @@ body {
 }
 
 #hero p {
+    font-size: 3em;
     margin: 20px;
 }
 
 .box {
+    color:cornflowerblue;
+    text-decoration: none;
     margin: 10px;
     padding: 9px;
     border: 2px solid black;
 }
 
 .part2 {
-    padding: 200px;
+    padding: 100px;
     background-color: lightgreen;
     color: dimgrey;
     text-align: center;
