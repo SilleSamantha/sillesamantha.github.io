@@ -7,7 +7,7 @@ body {
 #hero {
     margin-top: 50px;
     background: url('../img/cover.JPG');
-    background-position: center;
+    background-position: 0 10%;
     background-repeat: no-repeat;
     text-align: center;
     background-size: contain;
@@ -24,9 +24,8 @@ body {
 
 #hero > div {
     font-family: 'Sigmar One', cursive;
-    display: table-cell;
-    vertical-align:bottom;
     padding-bottom: 20px;
+    margin-top: 25%;
 }
 
 #hero p {
