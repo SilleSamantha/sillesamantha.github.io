@@ -24,7 +24,6 @@ body {
 
 #hero > div {
     font-family: 'Sigmar One', cursive;
-    padding-bottom: 20px;
     margin-top: 25%;
 }
 
@@ -43,8 +42,8 @@ body {
 
 .two {
     padding: 100px;
-    background-color: lightgreen;
-    color: dimgrey;
+    background-color: #A9CDDA;
+    color: white;
     text-align: center;
 }
 
@@ -55,4 +54,23 @@ body {
 p {
     font-family: 'Shadows Into Light', cursive;
     font-size: 18px;
+}
+
+.three {
+    background-color: #D194B7;
+    text-align: center;
+}
+
+.three h1 {
+    font-size: 2em;
+    font-family: 'Sigmar One', cursive;
+}
+
+@media (max-width: 768px){
+    #hero > div {
+        margin-top: 45%;
+    }
+  #hero  p {
+        font-size: 2em;
+    }
 }
