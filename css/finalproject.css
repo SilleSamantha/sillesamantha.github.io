@@ -42,14 +42,14 @@ body {
     border: 2px solid black;
 }
 
-.part2 {
+.two {
     padding: 100px;
     background-color: lightgreen;
     color: dimgrey;
     text-align: center;
 }
 
-.part2 h2 {
+.two h2 {
     font-family: 'Sigmar One', cursive;
 }
 
