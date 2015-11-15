@@ -73,6 +73,24 @@ p {
     text-decoration: none;
 }
 
+#last {
+    margin-top: 50px;
+    background: url('../img/cupcake%20row.jpg');
+    background-color: #9C8A74;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: contain;
+    height: 100%;
+    display: table;
+    width: 100%;
+    color: white;
+}
+
+#last h1 {
+  font-family: 'Sigmar One', cursive;  
+}
+
 @media (max-width: 768px) {
     #hero > div {
         margin-top: 45%;
