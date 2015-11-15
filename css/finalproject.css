@@ -88,7 +88,7 @@ p {
 }
 
 #last h1 {
-  font-family: 'Sigmar One', cursive;  
+    font-family: 'Sigmar One', cursive;
 }
 
 @media (max-width: 768px) {
