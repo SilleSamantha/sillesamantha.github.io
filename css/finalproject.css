@@ -3,7 +3,6 @@ body {
     height: 100%;
 }
 
-
 #hero {
     margin-top: 50px;
     background: url('../img/cover.JPG');
@@ -33,7 +32,7 @@ body {
 }
 
 .box {
-    color:cornflowerblue;
+    color: cornflowerblue;
     text-decoration: none;
     margin: 10px;
     padding: 9px;
@@ -59,6 +58,8 @@ p {
 .three {
     background-color: #D18A25;
     text-align: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
 }
 
 .three h1 {
@@ -68,25 +69,23 @@ p {
 }
 
 .three a {
-    color:cornflowerblue;
+    color: cornflowerblue;
     text-decoration: none;
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
     #hero > div {
         margin-top: 45%;
     }
-  #hero  p {
+    #hero p {
         font-size: 2em;
     }
-    
     #hero h1 {
         font-family: 'Sigmar One', cursive;
         font-size: 3em;
     }
-    
-    .two{
-     text-align: center;
+    .two {
+        text-align: center;
         color: purple;
     }
 }
