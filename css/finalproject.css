@@ -71,13 +71,13 @@ p {
 .three a {
     color: cornflowerblue;
     text-decoration: none;
-} 
+}
 
- .img-responsive {
+.img-responsive {
     display: inline;
 }
 
-.tablet{
+.tablet {
     padding-top: 40px;
     background-color: #91D0E7;
     color: midnightblue;
@@ -109,7 +109,7 @@ p {
 }
 
 .maps {
-    background-color:dimgrey;
+    background-color: dimgrey;
     text-align: center;
     color: white;
     font-family: 'Sigmar One', cursive;
@@ -129,6 +129,5 @@ p {
     .two {
         text-align: center;
         color: purple;
-    } 
-
     }
+}
