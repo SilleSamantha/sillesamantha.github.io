@@ -88,14 +88,12 @@ p {
 }
 
 #last {
-    margin-top: 50px;
     background: url('../img/cupcake%20row.jpg');
     background-color: #9C8A74;
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
     background-size: contain;
-    height: 100%;
     display: table;
     width: 100%;
     color: white;
@@ -132,8 +130,5 @@ p {
         text-align: center;
         color: purple;
     } 
-    
-    .last {
-        margin-top: 45%;
+
     }
-}
