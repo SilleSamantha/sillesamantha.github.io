@@ -71,9 +71,11 @@ p {
 .three a {
     color: cornflowerblue;
     text-decoration: none;
-}
+} 
 
-.tablet
+ .img-responsive {
+    display: inline;
+}
 
 #last {
     margin-top: 50px;
@@ -93,6 +95,18 @@ p {
     font-family: 'Sigmar One', cursive;
 }
 
+.btn-action {
+    margin: 10px;
+    color: black;
+}
+
+.maps {
+    background-color:dimgrey;
+    text-align: center;
+    color: white;
+    font-family: 'Sigmar One', cursive;
+}
+
 @media (max-width: 768px) {
     #hero > div {
         margin-top: 45%;
@@ -107,5 +121,9 @@ p {
     .two {
         text-align: center;
         color: purple;
+    } 
+    
+    .last {
+        margin-top: 45%;
     }
 }
