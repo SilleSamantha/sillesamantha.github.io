@@ -77,6 +77,16 @@ p {
     display: inline;
 }
 
+.tablet{
+    padding-top: 40px;
+    background-color: #91D0E7;
+    color: midnightblue;
+}
+
+.tablet h4 {
+    font-family: 'Sigmar One', cursive;
+}
+
 #last {
     margin-top: 50px;
     background: url('../img/cupcake%20row.jpg');
